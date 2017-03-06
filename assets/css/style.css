@@ -43,7 +43,7 @@ section {
     padding: 40px 0;
 }
 
-a:visited, a:hover{
+a, a:visited, a:hover{
     color: #FFF;
     text-decoration: none;
 }
@@ -87,6 +87,7 @@ a:visited, a:hover{
 #profile {
     height: calc(100vh);
     background: rgba(0, 135, 224, .8);
+    /* background: rgba(0, 0, 0, .4); */
 }
 
 h1 .job-title {
@@ -102,6 +103,7 @@ h1 .job-title {
 #profile .icon-freelancer,
 .fa.fa-linkedin-square,
 .fa.fa-github-alt {
+    color: #fff;
     margin-left: 10px;
     margin-right: 10px;
 }
